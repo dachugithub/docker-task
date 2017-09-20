@@ -1,0 +1,27 @@
+Started by user [8mha:////4K+hVvMv+BsJNARZq4dOrhTWk9MVkXEjDm7BMUUcqeMBAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9lMTkjFIAagtCS8AAAAA=[0mdachu
+Building in workspace /var/lib/jenkins/workspace/checkout, validate and build
+[WS-CLEANUP] Deleting project workspace...
+Cloning the remote Git repository
+Cloning repository https://github.com/getintodevops/hellonode
+ > git init /var/lib/jenkins/workspace/checkout, validate and build # timeout=10
+Fetching upstream changes from https://github.com/getintodevops/hellonode
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/getintodevops/hellonode +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/getintodevops/hellonode # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/getintodevops/hellonode # timeout=10
+Fetching upstream changes from https://github.com/getintodevops/hellonode
+ > git fetch --tags --progress https://github.com/getintodevops/hellonode +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 4d545f69182ba4a6a9dde3b47a5e8dd843ef8edf (refs/remotes/origin/master)
+Commit message: "cleanup: statefiles"
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4d545f69182ba4a6a9dde3b47a5e8dd843ef8edf
+First time build. Skipping changelog.
+[checkout, validate and build] $ /bin/sh -xe /tmp/jenkins1649427690802385168.sh
++ docklint Dockerfile
+/tmp/jenkins1649427690802385168.sh: 3: /tmp/jenkins1649427690802385168.sh: docklint: not found
+Build step 'Execute shell' marked build as failure
+Archiving artifacts
+Finished: FAILURE
